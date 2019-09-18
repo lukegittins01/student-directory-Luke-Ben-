@@ -1,5 +1,4 @@
-#assigning variable student_count
-student_count = 11
+
 #assigning students array with all students names
 students = [
   "Dr. Hannibal Lecter",
@@ -28,7 +27,7 @@ def print(names)
 end
 
 def print_footer(names)
-  puts "Overall, we have #{student_count} great students"
+  puts "Overall, we have #{names.count} great students"
 end
 
 print_header
