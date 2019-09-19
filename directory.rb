@@ -27,7 +27,7 @@ end
 
 def print(students)
   students.each do |student|
-    if student[:name][0].include?('a')
+    if student[:name][0].include?('a') && student[:name].length < 13
       puts "#{student[:name]} (#{student[:cohort]} cohort)"
     end
   end
