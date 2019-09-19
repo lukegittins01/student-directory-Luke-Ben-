@@ -8,7 +8,6 @@ def input_students
   students = []
   # get the first name
 
-def details()
   puts("enter name")
   name = gets.chomp
   puts("enter cohort")
@@ -17,7 +16,6 @@ def details()
   sport = gets.chomp
   puts("enter country")
   country = gets.chomp
-end
 
   # while the name is not empty, repeat this code
   while !name.empty? do
